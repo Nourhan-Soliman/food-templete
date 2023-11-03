@@ -491,8 +491,7 @@ h2::after {
 
 
 #gallary {
-    padding: 20px;
-
+    padding: 1px;
     width: 90%;
     box-shadow: 0 0 8px #f9a51a;
     border-radius: 20px;
