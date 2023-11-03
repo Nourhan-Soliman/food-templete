@@ -491,10 +491,10 @@ h2::after {
 
 
 #gallary {
-    padding: 10px;
+    padding: 20px;
 
     width: 90%;
-    box-shadow: 0 0 8px 0 #e7c389;
+    box-shadow: 0 0 8px #f9a51a;
     border-radius: 20px;
     margin: 20px auto;
     margin-top: 70px;
@@ -512,7 +512,7 @@ h2::after {
 
 #gallary .photos .photo {
 
-    box-shadow: 0 0 8px 0 #e7c389;
+    box-shadow: 0 0 8px #d8a452;
     border-radius: 20px;
     height: 400px;
     transition: .3s;
@@ -534,6 +534,7 @@ h2::after {
 
     transform: scale(.8);
 
+    box-shadow: 0 0 8px 0 #ff9f04;
 
 }
 
@@ -820,14 +821,14 @@ h2::after {
     font-size: 13px;
     cursor: pointer;
     transition: .3s;
-    padding: 0px;
 
 
 }
 
 .team .chef .info i:hover {
     background-color: #f9a51a;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 /* End Team Section */
@@ -886,33 +887,29 @@ h2::after {
 
 }
 
-.social {
-    color: black;
-    width: 50px;
-    display: flex;
-    margin-left: 60px;
+
+.contacts i {
+
+margin-right: 10px;
+}
+.footer .foot .social {
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-
-@media (max-width:920px) {
-    .social {
-        justify-content: center;
-        /* padding-left: 30px; */
-        text-align: center;
-
-    }
-}
-
-.social i {
+.footer .foot .social i {
     font-size: 13px;
     color: black;
     background-color: #fff;
     border-radius: 50%;
     margin: 5px;
     padding: 10px;
+    text-align: center;
 }
 
-.social i:hover {
+.footer .foot .social i:hover {
     background-color: #f9a51a;
 }
 
@@ -961,3 +958,13 @@ h2::after {
     color: black;
 
 }
+
+
+
+
+    .last {
+        text-align: center;
+
+    }
+
+
