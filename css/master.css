@@ -491,19 +491,20 @@ h2::after {
 
 
 #gallary {
-    padding: 20px;
+    padding: 10px;
     width: 90%;
     box-shadow: 0 0 8px #f9a51a;
     border-radius: 20px;
     margin: 20px auto;
     margin-top: 70px;
+    padding-top: 20px;
 }
 
 #gallary .photos {
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
     text-align: center;
 
 }
